@@ -42,7 +42,7 @@ public class Fragment1 extends Fragment {
         rv1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getContext(), RecyclerViewActivity.class));
+                startActivity(new Intent(getContext(), MapActivity.class));
             }
         });
     }
