@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RIDPMS</string>
+
+    <string name="fag1">YOU</string>
+    <string name="fag2">CAN</string>
+    <string name="fag3">DO</string>
+    <string name="fag4">IT!</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
