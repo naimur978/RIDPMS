@@ -305,13 +305,21 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 Util.pinLatLng=latLng;
 
 
+
+
                 /*
                 Toast.makeText(this,new Double(Util.pinLatLng.latitude).toString()+"\n"+new Double(Util.pinLatLng.longitude).toString(),
                         Toast.LENGTH_SHORT).show();
-                        */
+                 */
 
 
                 mMarker = mMap.addMarker(options);
+
+                Intent intent=new Intent(MapActivity.this,PollActivity.class);
+                startActivity(intent);
+
+
+
 
             }catch (Exception e){
                 Log.e(TAG, "moveCamera: NullPointerException: " + e.getMessage() );
