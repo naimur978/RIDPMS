@@ -12,5 +12,7 @@
     <color name="facebook_button_color_pressed">#2f477a</color>
     <color name="send_comment_button_activated">#0097d3</color>
     <color name="send_comment_button_deactivated">#7fcbe9</color>
+    <color name="tint">#098DC5</color>
+    <color name="tint_background">#7fcbe9</color>
 
 </resources>
